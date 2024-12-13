@@ -8,9 +8,23 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+      },
+      borderRadius: {
+        "3xl": "52px",
+        "4xl": "62px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        sushii: {
+          coral: { 10: "#f52293" },
+          pink: { 10: "#ffb7ff" },
+        },
+        /* 
+     navbar bg:    rgba(152, 152, 152, 0.596)    
+    */
       },
     },
   },

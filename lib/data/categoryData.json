@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "category": {
+      "title": "Quality",
+      "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "quality"
+    }
+  },
+  {
+    "id": 2,
+    "category": {
+      "title": "Healthy",
+      "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.",
+      "image": "healthy"
+    }
+  },
+  {
+    "id": 3,
+    "category": {
+      "title": "Fast",
+      "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "fast"
+    }
+  }
+]

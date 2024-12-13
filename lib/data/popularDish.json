@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "dish": {
+      "name": "Makizushi",
+      "image": "/assets/popular1.jpeg",
+      "price": "£2.45",
+      "rating": "4.2"
+    }
+  },
+  {
+    "id": 2,
+    "dish": {
+      "name": "Sashimi",
+      "image": "/assets/popular2.jpeg",
+      "price": "£4.57",
+      "rating": "4.8"
+    }
+  },
+  {
+    "id": 3,
+    "dish": {
+      "name": "Nigirizuhi",
+      "image": "/assets/popular3.jpeg",
+      "price": "£5.21",
+      "rating": "4.9"
+    }
+  },
+  {
+    "id": 4,
+    "dish": {
+      "name": "Temaki",
+      "image": "/assets/popular4.jpeg",
+      "price": "£4.89",
+      "rating": "3.9"
+    }
+  },
+  {
+    "id": 5,
+    "dish": {
+      "name": "Gurupumiru",
+      "image": "/assets/popular5.jpeg",
+      "price": "£15.78",
+      "rating": "4.6"
+    }
+  },
+  {
+    "id": 6,
+    "dish": {
+      "name": "Temarizushi",
+      "image": "/assets/popular6.jpeg",
+      "price": "£5.45",
+      "rating": "3.5"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "image": "/assets/author1.jpeg",
+      "name": "Williams Johon",
+      "address": "Barton, UK",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    "dish": {
+      "image": "/assets/dish1.png",
+      "name": "Delicious Sushi Dish",
+      "description": "Sushi served with a variety of fresh ingredients."
+    }
+  },
+  {
+    "id": 2,
+    "author": {
+      "image": "/assets/author2.png",
+      "name": "Weaver Vanessa",
+      "address": "Luton, UK",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo."
+    },
+    "dish": {
+      "image": "/assets/dish2.jpeg",
+      "name": "Delicious Sushi Dish on Wooden Board",
+      "description": "Sushi served on a wooden board with Japanese tea in the background."
+    }
+  }
+]

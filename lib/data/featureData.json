@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "10:00am - 9:00pm",
+    "slug": "Open hours",
+    "icon": "clock",
+    "hasBorder": true
+  },
+  {
+    "id": 2,
+    "title": "1 Churchill Road, London N1",
+    "slug": "Find us",
+    "icon": "navigation",
+    "hasBorder": true
+  },
+  {
+    "id": 3,
+    "title": "+44 020 5678 908",
+    "slug": "Call us",
+    "icon": "call",
+    "hasBorder": false
+  }
+]
