@@ -5,11 +5,11 @@ const BannerSection = () => {
     <section className="mx-auto max-w-screen-lg py-24 px-7">
       <div className="bg-sushii-coral-10 rounded-br-4xl rounded-tl-4xl grid grid-rows-2 lg:grid-rows-none  lg:grid-cols-2 items-center shadow-lg">
         <div className="flex flex-col justify-center items-center lg:items-start p-12">
-          <h2 className="text-[40px] mb-2.5 font-poppins font-bold min-w-64 max-w-64 text-white text-center lg:text-start">
+          <h2 className="text-[40px] xl:text-5xl xl:max-w-72 mb-2.5 font-poppins font-bold min-w-64 max-w-64 text-white text-center lg:text-start">
             A simple way to order your food.
           </h2>
 
-          <p className="text-base font-poppins font-normal text-white max-w-80 mb-5 text-center lg:text-start">
+          <p className="text-base xl:text-xl font-poppins font-normal text-white max-w-80 mb-5 text-center lg:text-start">
             Order directly in our app, collect points and offers are avaibile in
             app too.
           </p>

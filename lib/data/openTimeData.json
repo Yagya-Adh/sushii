@@ -1,0 +1,9 @@
+[
+  { "id": 1, "day": { "name": "Monday", "time": "1:00pm - 10:00pm" } },
+  { "id": 2, "day": { "name": "Tuesday", "time": "1:00pm - 10:00pm" } },
+  { "id": 3, "day": { "name": "Wednesday", "time": "1:00pm - 10:00pm" } },
+  { "id": 4, "day": { "name": "Thursday", "time": "1:00pm - 11:00pm" } },
+  { "id": 5, "day": { "name": "Friday", "time": "1:00pm - 11:00pm" } },
+  { "id": 6, "day": { "name": "Saturday", "time": "12:00pm - 11:00pm" } },
+  { "id": 7, "day": { "name": "Sunday", "time": "12:00pm - 9:00pm" } }
+]

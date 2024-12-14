@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import ElongButton from "../button/ElongButton";
 
@@ -15,19 +16,23 @@ const HealthAndTaste = () => {
           />
         </div>
         <div className="flex flex-col md:ml-14">
-          <h5 className="text-sm font-poppins font-extrabold text-sushii-coral-10 mb-2.5 md:text-start text-center">
+          <h5 className="text-sm xl:text-xl font-poppins font-extrabold text-sushii-coral-10 mb-2.5 md:text-start text-center">
             Healthy and tasty
           </h5>
-          <h2 className="text-black font-poppins font-bold text-3xl text-center md:text-start lg:text-4xl lg:my-5 max-w-72">
+          <h2 className="text-black font-poppins font-bold text-3xl xl:text-4xl text-center md:text-start lg:text-4xl lg:my-5 max-w-72">
             Sushi is an important part of a balanced diet.
           </h2>
-          <p className="text-sm font-poppins font-normal text-black max-w-72 mb-2.5 md:text-start text-center">
+          <p className="text-sm xl:text-xl font-poppins font-normal text-black max-w-72 mb-2.5 md:text-start text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
-          <div className="mt-10 lg:mt-5 md:justify-start flex justify-center">
+          <Link
+            href="https://www.just-eat.co.uk/takeaway/nearme/sushi"
+            target="_blank"
+            className="mt-10 lg:mt-5 md:justify-start flex justify-center"
+          >
             <ElongButton text="Make an order" />
-          </div>
+          </Link>
         </div>
       </div>
     </section>

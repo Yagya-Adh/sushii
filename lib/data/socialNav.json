@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "icons": "facebook",
+    "linkPath": "https://www.facebook.com"
+  },
+
+  {
+    "id": 2,
+    "icons": "twitter",
+    "linkPath": "https://www.twitter.com"
+  },
+  {
+    "id": 3,
+    "icons": "youtube",
+    "linkPath": "https://www.youtube.com"
+  },
+
+  {
+    "id": 4,
+    "icons": "linkedin",
+    "linkPath": "https://www.linkedin.com"
+  }
+]

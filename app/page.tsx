@@ -4,6 +4,7 @@ import FeaturedSection from "./components/section/FeaturedSection";
 import HealthAndTaste from "./components/section/HealthAndTaste";
 import HeroSection from "./components/section/HeroSection";
 import PopularSection from "./components/section/PopularSection";
+import Subscribe from "./components/section/Subscribe";
 import Testimonial from "./components/section/Testimonial";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <PopularSection />
       <BannerSection />
       <Testimonial />
+      <Subscribe />
     </main>
   );
 }
