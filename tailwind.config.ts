@@ -21,6 +21,7 @@ export default {
         sushii: {
           coral: { 10: "#f52293" },
           pink: { 10: "#ffb7ff" },
+          deliveroo: { 10: "#00ccbc" },
         },
         /* 
      navbar bg:    rgba(152, 152, 152, 0.596)    

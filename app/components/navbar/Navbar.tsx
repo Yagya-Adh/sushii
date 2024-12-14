@@ -1,5 +1,28 @@
 import { SushiiLogo } from "@/app/icons";
 import PillButton from "../button/PillButton";
+import Link from "next/link";
+import Image from "next/image";
+
+const foodOrder = [
+  {
+    id: 1,
+    image: "/assets/just.jpg",
+    link: "https://www.just-eat.co.uk/",
+    hasBackgroundColor: false,
+  },
+  {
+    id: 2,
+    image: "/assets/uber.jpeg",
+    link: "https://www.ubereats.com/",
+    hasBackgroundColor: false,
+  },
+  {
+    id: 3,
+    image: "/assets/deliveroo.png",
+    link: "https://deliveroo.co.uk/",
+    hasBackgroundColor: true,
+  },
+];
 
 const Navbar = () => {
   return (
@@ -12,11 +35,35 @@ const Navbar = () => {
               Sushii
             </h2>
           </div>
-          <div className="group">
+          <div className="group block relative">
             <PillButton text="order now" />
+
+            <div className="absolute -bottom-[125px] left-0 hidden group-hover:block z-10">
+              {foodOrder.map((item) => (
+                <Link
+                  href={item.link}
+                  target="_blank"
+                  className="w-full h-full rounded-xl overflow-hidden"
+                  key={item.id}
+                >
+                  <Image
+                    src={item.image}
+                    alt={`order_${item.id} image`}
+                    width={100}
+                    height={30}
+                    className={`                      
+                      object-cover object-center w-auto h-auto py-1 px-1.5 mb-0.5 rounded-sm
+                      ${
+                        item.hasBackgroundColor === true
+                          ? "bg-sushii-deliveroo-10"
+                          : ""
+                      }`}
+                  />
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-        <div className="hidden group-hover:flex flex-col">lorem lorem</div>
       </div>
     </nav>
   );

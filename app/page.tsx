@@ -6,6 +6,7 @@ import HeroSection from "./components/section/HeroSection";
 import PopularSection from "./components/section/PopularSection";
 import Subscribe from "./components/section/Subscribe";
 import Testimonial from "./components/section/Testimonial";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <BannerSection />
       <Testimonial />
       <Subscribe />
+      <Footer />
     </main>
   );
 }

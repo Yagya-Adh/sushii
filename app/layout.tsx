@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins, Geist, Geist_Mono } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
-import Image from "next/image";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -44,11 +43,10 @@ export default function RootLayout({
             alt="food and taste image"
             width={800}
             height={1050}
-            className="object-center object-cover w-full h-screen sm:h-[550px] lg:h-[550px] lg:w-[970px] sm:rounded-bl-4xl"
+            className="object-center object-cover w-full h-screen sm:h-[550px] lg:h-[550px] lg:w-[700px] xl:w-[800px] sm:rounded-bl-4xl"
           />
         </div>
         {children}
-        <Footer />
       </body>
     </html>
   );
