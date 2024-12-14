@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const NotFound = () => {
   return (
@@ -16,9 +17,9 @@ const NotFound = () => {
         <h1 className="font-poppins font-extrabold text-8xl my-5">404</h1>
         <p className="font-poppins font-normal text-sm text-black">
           Eek! We&apos;ve lost this page. Sorry about that.{" "}
-          <span className="text-sushii-coral-10">
+          <Link href="/" className="text-sushii-coral-10">
             Click here to return home.
-          </span>
+          </Link>
         </p>
       </div>
     </main>
