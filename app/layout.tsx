@@ -24,6 +24,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Home - Sushii website template",
   description: "Created by Jamstackers",
+  openGraph: {
+    title: "Home - Sushii Website Template",
+    description: "Created by Jamstackers",
+    images: ["/assets/dish1.png"],
+  },
 };
 
 export default function RootLayout({

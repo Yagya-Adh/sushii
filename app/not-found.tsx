@@ -1,6 +1,16 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { SushiiLogo } from "./icons";
 
+export const metadata: Metadata = {
+  title: "Not Found - Sushii website template",
+  description: "Created by Jamstackers",
+  openGraph: {
+    title: "Not Found - Sushii Website Template",
+    description: "Created by Jamstackers",
+    images: ["/assets/dish1.png"],
+  },
+};
 const NotFound = () => {
   return (
     <main className="mx-auto max-w-screen-lg">
