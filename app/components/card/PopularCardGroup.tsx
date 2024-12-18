@@ -5,10 +5,10 @@ const data = popularDish;
 
 const PopularCardGroup = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-11 lg:gap-10">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
       {data.map((list) => (
         <div
-          className="relative h-48 w-36 md:w-52 md:h-52 lg:w-64 lg:h-56 rounded-br-2xl rounded-tl-2xl overflow-hidden"
+          className="relative h-48 w-full md:h-52 lg:h-56 rounded-br-2xl rounded-tl-2xl overflow-hidden"
           key={list.id}
         >
           <Image

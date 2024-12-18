@@ -6,10 +6,10 @@ const data = featuredData;
 const FeaturedSection = () => {
   return (
     <section className="mx-auto max-w-screen-lg md:pt-24 md:px-7 px-7 p-12">
-      <div className="bg-white rounded-br-3xl rounded-tl-3xl shadow-md py-7 px-5 sm:p-12 gap-5 grid grid-rows-3 grid-cols-none md:grid-rows-none md:grid-cols-3">
+      <div className="bg-white rounded-br-3xl rounded-tl-3xl shadow-md py-7 px-5 sm:p-12 gap-5 grid grid-rows-3 grid-cols-none md:grid-rows-none md:grid-cols-3 h-full">
         {data.map((list) => (
           <div
-            className={`flex flex-col justify-center items-center py-4 md:py-0 px-0 md:px-4
+            className={`flex flex-col justify-center items-center py-4 md:py-0 px-0 md:px-4 h-full
                  ${
                    list.hasBorder &&
                    "border-b md:border-b-0 border-r-0 md:border-r"

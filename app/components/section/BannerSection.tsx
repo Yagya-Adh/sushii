@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BannerSection = () => {
   return (
-    <section className="mx-auto max-w-screen-lg py-24 px-7">
+    <section className="mx-auto max-w-screen-lg py-12 px-7">
       <div className="bg-sushii-coral-10 rounded-br-4xl rounded-tl-4xl grid grid-rows-2 lg:grid-rows-none  lg:grid-cols-2 items-center shadow-lg">
         <div className="flex flex-col justify-center items-center lg:items-start p-12">
           <h2 className="text-[40px] xl:text-5xl xl:max-w-72 mb-2.5 font-poppins font-bold min-w-64 max-w-64 text-white text-center lg:text-start">

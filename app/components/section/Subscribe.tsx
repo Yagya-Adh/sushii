@@ -20,7 +20,7 @@ const Subscribe = () => {
   };
 
   return (
-    <section className="mx-auto max-w-screen-lg md:px-7 md:py-12 lg:py-24 lg:px-7">
+    <section className="mx-auto max-w-screen-lg md:px-7 md:py-12 lg:px-7">
       <div className="md:rounded-tl-3xl md:rounded-br-3xl bg-black flex items-center gap-10 relative py-12 px-7 sm:py-0 md:py-0 lg:px-12">
         <div className="hidden md:flex items-center inset-0 -translate-y-14 z-20">
           <Image
