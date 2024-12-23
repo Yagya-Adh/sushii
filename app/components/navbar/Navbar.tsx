@@ -37,8 +37,7 @@ const Navbar = () => {
           </div>
           <div className="group block relative">
             <PillButton text="order now" />
-
-            <div className="absolute -bottom-[125px] left-0 hidden group-hover:block z-10">
+            <div className="absolute -bottom-28 md:-bottom-32 xl:-bottom-[125px] left-0 hidden group-hover:block z-10">
               {foodOrder.map((item) => (
                 <Link
                   href={item.link}

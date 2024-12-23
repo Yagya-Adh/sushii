@@ -23,9 +23,25 @@ export default {
           pink: { 10: "#ffb7ff" },
           deliveroo: { 10: "#00ccbc" },
         },
-        /* 
-     navbar bg:    rgba(152, 152, 152, 0.596)    
-    */
+      },
+      keyframes: {
+        fadeInUp: {
+          "0%": { opacity: "0", transform: "translateY(25px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.3s ease-in",
+        fadeOut: "fadeOut 0.3s ease-out",
+        fadeInUp: "fadeInUp .8s ease-in",
       },
     },
   },

@@ -10,10 +10,8 @@ const ElongButton = ({ text, onClick, buttonType }: IIPropsButton) => {
       group 
       flex items-center
       bg-sushii-coral-10
-      rounded-full 
-      text-xs 
-      md:text-base 
-      xl:text-xl
+      rounded-full    
+      text-xl
       font-poppins 
       font-medium
       text-white
@@ -25,7 +23,7 @@ const ElongButton = ({ text, onClick, buttonType }: IIPropsButton) => {
       "
     >
       <span>{text}</span>
-      <RoundedArrow className="ml-1.5 h-7 w-7 rotate-45 fill-white hidden group-hover:block transition-all ease-in-out duration-300" />
+      <RoundedArrow className="ml-1.5 h-7 w-7 rotate-45 fill-white hidden group-hover:block group-hover:animate-fadeIn animate-fadeOut" />
     </button>
   );
 };
