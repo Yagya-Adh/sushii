@@ -21,7 +21,7 @@ const FooterTopSection = () => {
             Athenti Sushii
           </h2>
         </div>
-        <div className="font-poppins font-normal text-base xl:text-xl mt-3.5 mb-5 text-center md:text-start">
+        <div className="font-poppins font-normal text-base xl:text-xl mt-3.5 mb-5 text-center md:text-start order-1 md:order-none">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.
         </div>
@@ -62,7 +62,7 @@ const FooterTopSection = () => {
           </div>
         ))}
       </div>
-      <div className="w-full flex flex-col justify-center items-center md:justify-normal md:items-start">
+      <div className="w-full flex flex-col justify-center items-center md:justify-normal md:items-start order-2 md:order-none">
         <h3 className="font-poppins font-bold text-black xl:text-3xl text-2xl mb-10">
           Contact Us
         </h3>
@@ -75,12 +75,12 @@ const FooterTopSection = () => {
         >
           +44 020 5678 908
         </Link>
-
         <Link
           href="https://www.jamstackers.com"
-          className="font-poppins font-normal hover:text-sushii-coral-10 text-sm xl:text-base my-[7px]"
+          className="font-poppins font-normaltext-sm xl:text-base my-[7px]"
         >
-          Powered by Jamstackers
+          Powered by{" "}
+          <span className=" hover:text-sushii-coral-10 ">Jamstackers</span>
         </Link>
       </div>
     </div>

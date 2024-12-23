@@ -12,7 +12,7 @@ const BackgroundImageComponent = () => {
         alt="food and taste image"
         width={800}
         height={1050}
-        className="object-center object-cover w-full h-screen sm:h-[550px] lg:h-[550px] lg:w-[700px] xl:w-[800px] sm:rounded-bl-4xl"
+        className="object-center object-cover w-full h-[550px] lg:h-[550px] lg:w-[700px] xl:w-[800px] sm:rounded-bl-4xl"
       />
     </div>
   );

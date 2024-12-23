@@ -6,7 +6,6 @@ const Subscribe = () => {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email.trim()) {
@@ -18,7 +17,6 @@ const Subscribe = () => {
       }, 2000);
     }
   };
-
   return (
     <section className="mx-auto max-w-screen-lg md:px-7  md:py-12 lg:px-7">
       <div className="md:rounded-tl-3xl md:rounded-br-3xl bg-black flex items-center gap-10 relative py-12 px-7 lg:px-12">
@@ -39,7 +37,6 @@ const Subscribe = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus.
           </p>
-
           {submitted ? (
             <div className="mt-10 py-3 px-2 rounded-xl md:w-2/3 w-full text-base lg:text-xl text-center text-white bg-sushii-coral-10 font-poppins font-normal">
               You have been added to the list!

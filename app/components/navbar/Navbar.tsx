@@ -26,7 +26,7 @@ const foodOrder = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 left-0 w-full z-10 bg-white/40 backdrop:3xl rounded-br-3xl shadow-lg lg:shadow-none">
+    <nav className="sticky top-0 left-0 w-full z-10 bg-white/80 backdrop:3xl rounded-br-3xl shadow-lg lg:shadow-none">
       <div className="mx-auto max-w-screen-lg pb-2.5 px-[1.8rem] relative">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
